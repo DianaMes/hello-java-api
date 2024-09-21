@@ -4,7 +4,34 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-    
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "seminar1.Main",
+            "projectName": "hello-java-api_7f86cb7f"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "seminar1.main",
+            "projectName": "hello-java-api_7f86cb7f"
+        },
+        {
+            "type": "java",
+            "name": "task1",
+            "request": "launch",
+            "mainClass": "seminar1.task1",
+            "projectName": "hello-java-api_7f86cb7f"
+        },
+        {
+            "type": "java",
+            "name": "animal",
+            "request": "launch",
+            "mainClass": "seminar1.animal",
+            "projectName": "hello-java-api_7f86cb7f"
+        },
         {
             "type": "java",
             "name": "Current File",
