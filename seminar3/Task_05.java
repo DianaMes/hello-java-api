@@ -88,12 +88,11 @@ public class Task_05 {
 
     public static void joke() {
 
-        ArrayList joke = new ArrayList<String>();
-
+        ArrayList<Object> joke = new ArrayList<>(); // Параметризованный тип с Object
         joke.add("true");
         joke.add("ttt");
-        joke.add(11);
-        joke.add(12);
+        joke.add(11); // Теперь это допустимо
+        joke.add(12); // Теперь это допустимо
 
         for (int i = 0; i < joke.size(); i++) {
             if (joke.get(i) instanceof Integer) {
