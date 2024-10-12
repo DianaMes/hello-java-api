@@ -34,9 +34,9 @@ class Printer {
                 ll.add(arg);
             }
         }
-        task1 answer = new task1();
+        // task = new task1();
         System.out.println(ll);
-        answer.removeOddLengthStrings(ll);
+        // answer.removeOddLengthStrings(ll);
         System.out.println(ll);
     }
 }
